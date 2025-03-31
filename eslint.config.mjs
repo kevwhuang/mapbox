@@ -11,9 +11,9 @@ const globals = [
 
 const overrides = [
     {
-        files: [''],
+        files: ['**/*.tsx'],
         languageOptions: { globals: Object.fromEntries(globals.map(e => [e, true])) },
-        rules: {},
+        rules: { 'hooks/exhaustive-deps': 0 },
     },
 ];
 

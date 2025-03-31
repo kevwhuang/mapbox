@@ -15,5 +15,7 @@
         "react": "latest",
         "sass": "latest"
     },
-    "devDependencies": {}
+    "devDependencies": {
+        "mapbox-gl": "latest"
+    }
 }

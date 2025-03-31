@@ -4,7 +4,5 @@ import Root from '@/layouts/Root.astro';
 ---
 
 <Root description="" title="Mapbox">
-    <main>
-        <Map />
-    </main>
+    <Map client:only="react" />
 </Root>
