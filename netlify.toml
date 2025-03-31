@@ -1,0 +1,14 @@
+[build]
+command = 'bun run build'
+functions = 'netlify/functions'
+publish = 'dist'
+
+[[headers]]
+for = '/*'
+[headers.values]
+access-control-allow-origin = 'https://k-astro.netlify.app'
+content-security-policy = 'block-all-mixed-content'
+permissions-policy = 'geolocation=(self), microphone=(self)'
+referrer-policy = 'same-origin'
+x-content-type-options = 'nosniff'
+x-frame-options = 'sameorigin'
