@@ -7,6 +7,8 @@ const integrations = [
 
 const astro = defineConfig({
     integrations,
+    output: 'static',
+    site: 'https://k-mapbox.netlify.app',
 });
 
 export default astro;

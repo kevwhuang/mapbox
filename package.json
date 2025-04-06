@@ -1,6 +1,6 @@
 {
     "name": "mapbox",
-    "version": "25.3.31",
+    "version": "25.4.6",
     "author": "Kevin Huang",
     "scripts": {
         "build": "astro build",
@@ -10,12 +10,14 @@
     "dependencies": {
         "@aephonics/config": "latest",
         "@astrojs/react": "latest",
+        "@types/mapbox__mapbox-gl-geocoder": "latest",
         "astro": "latest",
         "autoprefixer": "latest",
         "react": "latest",
         "sass": "latest"
     },
     "devDependencies": {
+        "@mapbox/mapbox-gl-geocoder": "latest",
         "mapbox-gl": "latest"
     }
 }
