@@ -1,6 +1,6 @@
 {
     "name": "mapbox",
-    "version": "25.5.2",
+    "version": "25.5.23",
     "author": "Kevin Huang",
     "scripts": {
         "build": "astro build",
